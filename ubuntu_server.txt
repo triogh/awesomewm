@@ -1,0 +1,18 @@
+Steps to setup awesomewm on a fresh ubuntu server install
+
+1. 
+sudo apt-get update
+2. 
+sudo apt-get install awesomewm
+3. 
+sudo apt-get install xinit
+4.
+create ~username/.xinitrc
+5.
+add "exec awesome" without the quotes to .xinitrc
+6.
+after logging in issue "startx" at prompt
+
+---
+-on 16.04 xenial, also had to install an additional pkg for awesome to run
+sudo apt-get install libcairo-gobject2

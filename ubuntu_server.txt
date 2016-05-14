@@ -3,7 +3,7 @@ Steps to setup awesomewm on a fresh ubuntu server install
 1. 
 sudo apt-get update
 2. 
-sudo apt-get install awesomewm
+sudo apt-get install awesome
 3. 
 sudo apt-get install xinit
 4.
